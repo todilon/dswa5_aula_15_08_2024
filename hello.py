@@ -14,7 +14,7 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 API_KEY = os.getenv("API_KEY")
 MAILGUN_DOMAIN = os.getenv("DOMAIN")
 MAILGUN_API_URL = f"https://api.mailgun.net/v3/{MAILGUN_DOMAIN}/messages"
-RECIPIENTS = ['flaskaulasweb@zohomail.com', 'freitas.alves@aluno.ifsp.edu.br', 'daniel.a49.freitas@gmail.com']
+RECIPIENTS = ['flaskaulasweb@zohomail.com', 'thiago.odilon@aluno.ifsp.edu.br']
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'hard to guess string'
